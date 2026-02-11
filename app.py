@@ -43,7 +43,7 @@ if audio:
     
     # Trimitem la Gemini
     response = client.models.generate_content(
-        model="gemini-2.0-flash",
+        model="gemini-1.5-flash",
         contents=user_text,
         config={'system_instruction': st.session_state.system_prompt}
     )
