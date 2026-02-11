@@ -11,7 +11,7 @@ st.title("🔧 Romstal AI: Role-Play Vânzări")
 st.write("Apasă pe microfon și începe să vorbești cu Domnul Popescu (Client).")
 
 # --- API KEY (Se pune în Settings pe Streamlit, nu direct în cod pentru siguranță) ---
-API_KEY = st.secrets["AIzaSyDveXzLvXIPyLgbnDELE8MoHBKYOln6-_c"]
+API_KEY = st.secrets["GOOGLE_API_KEY"]
 client = genai.Client(api_key=API_KEY)
 
 # --- INIȚIALIZARE SESIUNE ---
